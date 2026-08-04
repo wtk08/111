@@ -1,0 +1,22 @@
+a="用户名"
+str_1="尊敬的用户"
+str_2="您好"
+message_1=str_1 +str(a) + str_2
+print(message_1)
+b=int(input("请输入你的充值金额"))
+b=b-500
+if b>=0:
+    print(b)
+else:
+    number=500
+    message="加油，你还差%2.2f就能获得万元大奖了"%number
+    print(message)
+    b=int(input("请继续充值"))
+    if b>=1000:
+        print("恭喜你中了1元大奖")
+    else:
+        print("怎么还有穷鬼")
+
+
+
+
